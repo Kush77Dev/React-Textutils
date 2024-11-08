@@ -11,16 +11,15 @@ export default function NavBar(props) {
             {props.title}
           </Link> */}
           <button
-            className="navbar-brand"
+            className="navbar-brand {navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}}"
             style={{
               background: 'none',
               border: 'none',
               color: 'inherit',
               cursor: 'pointer',
-              fontSize: 'inherit',
-              textDecoration: 'underline',
-              padding: '0',
-              margin: '0'
+              fontSize: '20px',
+              padding: '50',
+              margin: '100'
             }}
               >
                 {props.title}
@@ -49,8 +48,7 @@ export default function NavBar(props) {
                     border: 'none',
                     color: 'inherit',
                     cursor: 'pointer',
-                    fontSize: 'inherit',
-                    textDecoration: 'underline',
+                    fontSize: '15px',
                     padding: '0',
                     margin: '0'
                   }}
