@@ -10,9 +10,21 @@ export default function NavBar(props) {
           {/* <Link className="navbar-brand" to="/">
             {props.title}
           </Link> */}
-          <a className="navbar-brand">
-            {props.title}
-          </a>
+          <button
+            className="navbar-brand"
+            style={{
+              background: 'none',
+              border: 'none',
+              color: 'inherit',
+              cursor: 'pointer',
+              fontSize: 'inherit',
+              textDecoration: 'underline',
+              padding: '0',
+              margin: '0'
+            }}
+              >
+                {props.title}
+              </button>
           <button
             className="navbar-toggler"
             type="button"
@@ -30,9 +42,21 @@ export default function NavBar(props) {
                 {/* <Link className="nav-link active" aria-current="page" to="/">
                   Home
                 </Link> */}
-                <a className="nav-link active" aria-current="page">
+                <button
+                  className="navbar-brand"
+                  style={{
+                    background: 'none',
+                    border: 'none',
+                    color: 'inherit',
+                    cursor: 'pointer',
+                    fontSize: 'inherit',
+                    textDecoration: 'underline',
+                    padding: '0',
+                    margin: '0'
+                  }}
+                >
                   Home
-                </a>
+                </button>
               </li>
               {/* <li className="nav-item">
                 <Link className="nav-link" to="/about">
