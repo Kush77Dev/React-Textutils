@@ -11,7 +11,7 @@ export default function NavBar(props) {
             {props.title}
           </Link> */}
           <button
-            className="navbar-brand {navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}}"
+            className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}
             style={{
               background: 'none',
               border: 'none',
