@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
+import React from 'react'
 
 export default function AboutUs() {
-    const [myStyle,setmyStyle] = useState({
-        color: 'black',
-        backgroundColor: 'white'
-    })
+    // const [myStyle,setmyStyle] = useState({
+    //     color: 'black',
+    //     backgroundColor: 'white'
+    // })
 
     // const [btnText,setbtntext] = useState("Enable Dark Mode")
 
@@ -28,7 +29,7 @@ export default function AboutUs() {
     // }
   return (
 
-    <div className='container' style={myStyle}>
+    <div className='container'>
         <h1 className='m-4'>About Us</h1>
       <div className="accordion" id="accordionExample">
         <div className="accordion-item">
